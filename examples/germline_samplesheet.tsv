@@ -1,0 +1,3 @@
+sample_name	fastq_r1	fastq_r2	sample_type
+SAMPLE_1	/data/SAMPLE_1_R1.fastq.gz	/data/SAMPLE_1_R2.fastq.gz	germline
+SAMPLE_2	/data/SAMPLE_2_R1.fastq.gz	/data/SAMPLE_2_R2.fastq.gz	germline

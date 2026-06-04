@@ -1,0 +1,5 @@
+sample_name	bam	sample_type	pair_id
+TUMOR_1	/data/bams/TUMOR_1.markdup.bam	tumor	PAIR_1
+NORMAL_1	/data/bams/NORMAL_1.markdup.bam	normal	PAIR_1
+TUMOR_2	/data/bams/TUMOR_2.markdup.bam	tumor	PAIR_2
+NORMAL_2	/data/bams/NORMAL_2.markdup.bam	normal	PAIR_2

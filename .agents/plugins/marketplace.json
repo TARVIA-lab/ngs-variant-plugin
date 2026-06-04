@@ -1,0 +1,11 @@
+{
+  "name": "TARVIA-lab Variant Calling Local Plugins",
+  "description": "Local DNA variant calling plugin from TARVIA-lab",
+  "plugins": [
+    {
+      "name": "ngs-variant",
+      "path": ".",
+      "description": "Five-step variant pipeline: FASTQ QC → BWA-MEM2 alignment → duplicate marking → GATK4 germline or somatic calling → annotation"
+    }
+  ]
+}

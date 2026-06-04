@@ -1,0 +1,8 @@
+{
+  "name": "ngs-variant",
+  "description": "DNA variant calling plugin: FASTQ QC, BWA-MEM2 alignment, GATK4 germline and somatic variant calling, and bcftools/SnpEff annotation",
+  "author": {
+    "name": "TARVIA-lab",
+    "email": "o.lujano13@gmail.com"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pipelines": {
+    "alignment": {
+      "script": "run_alignment.py",
+      "tools": ["bwa-mem2", "samtools", "gatk"],
+      "inputs": ["germline_samplesheet.tsv", "genome.fa"],
+      "outputs": ["*.markdup.bam", "*.bai", "*_flagstat.txt"]
+    },
+    "germline": {
+      "script": "run_germline_variants.py",
+      "tools": ["gatk", "bcftools"],
+      "inputs": ["manifest.json OR bam_list.tsv", "genome.fa"],
+      "outputs": ["germline.filtered.vcf.gz"]
+    },
+    "somatic": {
+      "script": "run_somatic_variants.py",
+      "tools": ["gatk", "bcftools", "samtools"],
+      "inputs": ["somatic_samplesheet.tsv", "genome.fa"],
+      "outputs": ["*.somatic.filtered.vcf.gz", "*.contamination.table"]
+    },
+    "annotation": {
+      "script": "run_variant_annotation.py",
+      "tools": ["bcftools", "snpEff"],
+      "inputs": ["filtered.vcf.gz"],
+      "outputs": ["*.snpeff.vcf.gz", "variants_summary.tsv", "snpeff_summary.html"]
+    }
+  }
+}

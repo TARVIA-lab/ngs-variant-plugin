@@ -1,0 +1,4 @@
+sample_name	fastq_r1	fastq_r2	sample_type
+SAMPLE_1	/Users/omarlujanoolazaba/Desktop/ngs-variant-plugin/test_data/fastq/SAMPLE_1_R1.fastq.gz	/Users/omarlujanoolazaba/Desktop/ngs-variant-plugin/test_data/fastq/SAMPLE_1_R2.fastq.gz	germline
+SAMPLE_2	/Users/omarlujanoolazaba/Desktop/ngs-variant-plugin/test_data/fastq/SAMPLE_2_R1.fastq.gz	/Users/omarlujanoolazaba/Desktop/ngs-variant-plugin/test_data/fastq/SAMPLE_2_R2.fastq.gz	germline
+SAMPLE_3	/Users/omarlujanoolazaba/Desktop/ngs-variant-plugin/test_data/fastq/SAMPLE_3_R1.fastq.gz	/Users/omarlujanoolazaba/Desktop/ngs-variant-plugin/test_data/fastq/SAMPLE_3_R2.fastq.gz	germline

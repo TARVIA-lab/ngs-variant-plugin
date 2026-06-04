@@ -1,0 +1,27 @@
+{
+  "tools": {
+    "bwa-mem2": {
+      "version_tested": "2.2.1",
+      "install": "conda install -c bioconda bwa-mem2",
+      "notes": "Faster than BWA-MEM; same output format; auto-builds index on first run"
+    },
+    "samtools": {
+      "version_tested": "1.22.1",
+      "install": "conda install -c bioconda samtools"
+    },
+    "gatk4": {
+      "version_tested": "4.6.2.0",
+      "install": "conda install -c bioconda gatk4",
+      "notes": "Requires Java (OpenJDK 17+). Install via conda; includes bundled JVM."
+    },
+    "bcftools": {
+      "version_tested": "1.22",
+      "install": "conda install -c bioconda bcftools"
+    },
+    "snpeff": {
+      "version_tested": "5.2",
+      "install": "conda install -c bioconda snpeff",
+      "notes": "Genome databases auto-downloaded on first use (~1-2 GB per genome)"
+    }
+  }
+}
