@@ -1,0 +1,7 @@
+# Python dependencies for ngs-variant-plugin
+pyyaml>=6.0
+pandas>=2.0.0
+pydantic>=2.0.0
+
+# Note: Bioinformatics tools (BWA-MEM2, GATK4, bcftools, SnpEff) must be installed separately
+# See BIOINFORMATICS_SETUP.md or README.md for installation instructions
