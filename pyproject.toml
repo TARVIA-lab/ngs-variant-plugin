@@ -9,7 +9,7 @@ description = "Claude Code plugin for DNA variant calling — germline and somat
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
-authors = [{name = "TARVIA-lab", email = "tarvia-lab@institution.edu"}]
+authors = [{name = "TARVIA-lab", email = "o.lujano13@gmail.com"}]
 keywords = ["genomics", "variants", "claude", "variant-calling", "bwa", "gatk", "snpeff"]
 
 dependencies = ["pyyaml>=6.0", "pandas>=2.0.0", "pydantic>=2.0.0"]
