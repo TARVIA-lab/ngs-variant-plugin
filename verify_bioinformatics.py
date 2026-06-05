@@ -27,6 +27,6 @@ for name, cmd in tools.items():
 if ok:
     print(f"\n{GREEN}✓ All tools available!{RESET}\n")
 else:
-    print(f"\n{YELLOW}Missing tools:{{RESET}}")
+    print(f"\n{YELLOW}Missing tools:{RESET}")
     print("conda install -c bioconda bwa samtools gatk4 bcftools snpEff\n")
     sys.exit(1)

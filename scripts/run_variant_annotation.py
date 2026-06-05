@@ -135,7 +135,6 @@ def make_summary_tsv(vcf: Path, out_dir: Path, max_rows: int = 500) -> Path:
     result = subprocess.run(
         ["bcftools", "query",
          "-f", "%CHROM\t%POS\t%ID\t%REF\t%ALT\t%QUAL\t%FILTER\t%INFO\n",
-         "-f", "%CHROM\t%POS\t%ID\t%REF\t%ALT\t%QUAL\t%FILTER\n",
          "-i", "FILTER='PASS' || FILTER='.'",
          str(vcf)],
         capture_output=True, text=True,
